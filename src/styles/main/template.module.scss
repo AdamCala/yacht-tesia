@@ -1,0 +1,39 @@
+@import "../variables";
+
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.darken {
+  background-color: rgba($dark_grey, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+.main_darken {
+  width: 30%;
+  height: 100vh;
+  transition-delay: 0s, 0.5s;
+}
+.sub_darken {
+  width: calc(100% - 124px);
+  height: 80px;
+  transition-delay: 0.5s, 0s;
+}
+.logo {
+  position: absolute;
+  left: 2rem;
+  top: -0.2rem;
+  font-size: 3.5rem;
+  font-weight: 500;
+  :nth-child(1) {
+    color: $dark_grey;
+  }
+  :nth-child(2) {
+    color: $orange;
+  }
+}

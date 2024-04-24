@@ -8,29 +8,7 @@
   padding: 6rem;
   min-height: 100vh;
 }
-.darken {
-  background-color: rgba($dark_grey, 0.5);
-  width: 30%;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
 
-.logo {
-  position: absolute;
-  left: 2rem;
-  top: 1rem;
-  font-size: 3.5rem;
-  font-weight: 500;
-  :nth-child(1) {
-    color: $dark_grey;
-  }
-  :nth-child(2) {
-    color: $orange;
-  }
-}
 .haslo {
   position: absolute;
   left: 17%;
@@ -57,7 +35,7 @@
   font-size: 1.6rem;
   font-weight: 500;
   width: 30%;
-  text-align: justify;
+  text-align: start;
   position: absolute;
   left: 54%;
   top: 45%;

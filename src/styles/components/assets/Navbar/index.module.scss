@@ -1,0 +1,17 @@
+@import "../../../variables";
+
+.main {
+  width: 124px;
+  background-color: rgba($dark_grey, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  transition: 0.5s ease-out;
+}
+.closed {
+  height: 80px;
+}
+.open {
+  height: 100vh;
+}
