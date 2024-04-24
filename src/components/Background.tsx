@@ -19,7 +19,7 @@ const Background = ({ objectPosition }: Props) => {
       style={{
         objectFit: "cover",
         objectPosition: `center ${objectPosition}%`,
-        zIndex: -1,
+        zIndex: -2,
         transition: "object-position 1s ease-in-out",
       }}
     />

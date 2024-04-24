@@ -23,8 +23,6 @@ export default function Template({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Background objectPosition={objectPosition} />
-      <Link href={"/about"}>About</Link>
-      <Link href={"/"}>Home</Link>
       <div>{children}</div>
     </>
   );
